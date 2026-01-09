@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="karate-tasks" />
+        <module name="karate-practice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="karate-practice" target="1.8" />
+      <module name="karate-tasks" target="23" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
