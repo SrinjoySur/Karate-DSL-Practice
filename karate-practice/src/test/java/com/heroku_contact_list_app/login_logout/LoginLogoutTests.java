@@ -7,7 +7,7 @@ public class LoginLogoutTests {
     @Test
     void testLoginLogout(){
         Results results=Runner
-                .path("classpath:login_logout/features")
+                .path("classpath:com/heroku_contact_list_app/login_logout/features")
                 .outputCucumberJson(true)
                 .parallel(2);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());

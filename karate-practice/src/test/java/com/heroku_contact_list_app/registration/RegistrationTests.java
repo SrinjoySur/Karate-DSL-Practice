@@ -7,7 +7,7 @@ public class RegistrationTests {
     @Test
     void testRegistration(){
         Results results=Runner
-                .path("classpath:registration/features")
+                .path("classpath:com/heroku_contact_list_app/registration/features")
                 .outputCucumberJson(true)
                 .parallel(2);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
