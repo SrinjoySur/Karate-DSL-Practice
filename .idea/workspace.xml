@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15db34e5-f18d-4879-a00c-9aa098f1157d" name="Changes" comment="feat: karate basic project structure created" />
+    <list default="true" id="15db34e5-f18d-4879-a00c-9aa098f1157d" name="Changes" comment="feat: Registration Tests Created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/LoginLogoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/LoginLogoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/LoginLogoutRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/LoginLogoutRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/src/test/java/com/heroku_contact_list_app/login_logout/features/logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/examples.users.users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/examples.users.users.karate-json.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-labs-logo-ring.svg" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-labs-logo-ring.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/karate-timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/Resemble.js" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/Resemble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/karate-report.css" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/karate-report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/karate-report.js" beforeDir="false" afterPath="$PROJECT_DIR$/karate-practice/target/karate-reports/res/karate-report.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +50,15 @@
   "keyToString": {
     "Cucumber Java.Feature: users.executor": "Run",
     "JUnit.ExamplesTest.executor": "Run",
+    "JUnit.LoginLogoutTests.executor": "Run",
+    "JUnit.RegistrationTests.executor": "Run",
     "JUnit.UsersRunner.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/ui-test-sample",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/SrinjoySur/Personal_Practice/Karate-DSL-Practice",
     "project.structure.last.edited": "Project",
@@ -91,13 +114,22 @@
       <option name="project" value="LOCAL" />
       <updated>1768194861148</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Registration Tests Created">
+      <option name="closed" value="true" />
+      <created>1768278327285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768278327285</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: basic project structure created" />
     <MESSAGE value="feat: karate basic project structure created" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: karate basic project structure created" />
+    <MESSAGE value="feat: Registration Tests Created" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Registration Tests Created" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

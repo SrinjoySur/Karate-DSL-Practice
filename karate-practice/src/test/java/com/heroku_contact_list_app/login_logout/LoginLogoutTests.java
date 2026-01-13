@@ -9,7 +9,7 @@ public class LoginLogoutTests {
         Results results=Runner
                 .path("classpath:com/heroku_contact_list_app/login_logout/features")
                 .outputCucumberJson(true)
-                .parallel(2);
+                .parallel(1);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
 
     }
